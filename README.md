@@ -2,6 +2,22 @@
 
 Based on this course: _[Flask: Getting Started](https://app.pluralsight.com/library/courses/flask-getting-started/table-of-contents)_.
 
+To create virtual environment run:
+
+_Linux_
+
+```
+python -m venv venv
+./venv/Scripts/activate
+```
+
+_Windows_
+
+```
+python -m venv venv
+.\venv\Scripts\activate
+```
+
 To save requirements run:
 ```
 pip freeze > requirements.txt
@@ -15,7 +31,7 @@ pip install -r requirements.txt
 
 To start Flask application do this:
 
-Linux:
+_Linux_
 
 ```
 export FLASK_APP=flashcards.py
@@ -23,7 +39,7 @@ export FLASK_ENV=development
 flask run
 ```
 
-Windows (Command Line):
+_Windows_ (Command Line)
 
 ```
 set FLASK_APP=flashcards.py
@@ -31,7 +47,7 @@ set FLASK_ENV=development
 flask run
 ```
 
-Windows (PowerShell):
+_Windows_ (PowerShell)
 
 ```
 $Env:FLASK_APP='flashcards.py'
