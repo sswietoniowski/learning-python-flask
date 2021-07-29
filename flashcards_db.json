@@ -1,18 +1,1 @@
-[
-  {
-    "question": "Hello (formal)",
-    "answer": "Dzień dobry"
-  },
-  {
-    "question": "Goodbye (formal)",
-    "answer": "Do widzenia"
-  },
-  {
-    "question": "Hello (informal)",
-    "answer": "Cześć"
-  },
-  {
-    "question": "Goodbye (informal)",
-    "answer": "Cześć"
-  }
-]
+[{"question": "Hello (formal)", "answer": "Dzie\u0144 dobry"}, {"question": "Goodbye (formal)", "answer": "Do widzenia"}, {"question": "Hello (informal)", "answer": "Cze\u015b\u0107"}, {"question": "Goodbye (informal)", "answer": "Cze\u015b\u0107"}, {"question": "Cat", "answer": "Kot"}]
