@@ -58,7 +58,7 @@ But first you need to set `FLASK_APP` environment variable:
 export FLASK_APP=app.py
 ```
 
-You can also set `FLASK_ENV` environment variable to `development` to enable debug mode:
+You can also set `FLASK_ENV` environment variable to `development` to enable debug mode (this variable is considered deprecated in favor of `FLASK_DEBUG`):
 
 ```bash
 export FLASK_ENV=development
