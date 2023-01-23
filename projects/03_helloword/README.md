@@ -8,14 +8,14 @@ Instead, inside consecutively numbered folders you will find examples that would
 
 To create virtual environment run:
 
-_Linux_
+### _Linux_
 
 ```bash
 python -m venv .venv
 ./.venv/Scripts/activate
 ```
 
-_Windows_
+### _Windows_
 
 ```cmd
 python -m venv .venv
