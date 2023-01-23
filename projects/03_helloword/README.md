@@ -2,7 +2,7 @@
 
 Against its name, this is not a "Hello World" app :smile:.
 
-Instead, inside consecutive numbered folders you will iterations that would lead you from a simple "Hello World" app to a more complex (and useful) example.
+Instead, inside consecutively numbered folders you will iterations that would lead you from a simple "Hello World" app to a more complex (and useful) example.
 
 ## Setup
 
