@@ -1,0 +1,15 @@
+{% extends "base.html" %} {% import 'macros.html' as macros %} {% block title
+%}Index{% endblock %} {% block head %} {{ super() }}
+<style></style>
+{% endblock %} {% block body %}
+<h1>Hello World!</h1>
+{{ macros.show_user(user) }}
+<p>Your browser is: {{ user_agent }}.</p>
+<p>Your app is: {{ app_name|upper }}.</p>
+<p>This document carries a cookie!</p>
+<ul>
+  {% for comment in comments %}
+  <li>{{ comment }}</li>
+  {% endfor %}
+</ul>
+{% endblock %}

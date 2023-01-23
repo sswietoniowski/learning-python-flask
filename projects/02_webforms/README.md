@@ -32,33 +32,33 @@ To create virtual environment run:
 
 _Linux_
 
-```
+```bash
 python -m venv .venv
 ./.venv/Scripts/activate
 ```
 
 _Windows_
 
-```
+```cmd
 python -m venv .venv
 .\.venv\Scripts\activate
 ```
 
 To save requirements run:
 
-```
+```bash
 pip freeze > requirements.txt
 ```
 
 To install requirements run:
 
-```
+```bash
 pip install -r requirements.txt
 ```
 
 If you want to upgrade all packages to the latest version run:
 
-```
+```bash
 pip install -r requirements.txt --upgrade
 ```
 
@@ -66,7 +66,7 @@ To start Flask application do this:
 
 _Linux_
 
-```
+```bash
 export FLASK_APP=app.py
 export FLASK_ENV=development
 flask run
@@ -74,7 +74,7 @@ flask run
 
 _Windows_ (Command Line)
 
-```
+```cmd
 set FLASK_APP=app.py
 set FLASK_ENV=development
 flask run
@@ -82,7 +82,7 @@ flask run
 
 _Windows_ (PowerShell)
 
-```
+```cmd
 $Env:FLASK_APP='app.py'
 $Env:FLASK_ENV='development'
 flask run
