@@ -50,4 +50,4 @@ python app.py
 
 This app is based on:
 
-- [Writing a Web Application with Flask](https://learning.oreilly.com/videos/writing-a-web/10000MNHV2021147/) [:file_folder:](https://github.com/writeson/manning_twitch_presentation) ▶️.
+- _[Writing a Web Application with Flask](https://learning.oreilly.com/videos/writing-a-web/10000MNHV2021147/) [:file_folder:](https://github.com/writeson/manning_twitch_presentation)_.
