@@ -46,6 +46,18 @@ To start Flask application do this:
 python app.py
 ```
 
+Side note: if you want list all versions of Python installed on your machine run:
+
+```cmd
+py --list
+```
+
+To select specific version of Python run:
+
+```cmd
+py -3.8
+```
+
 ## Learning Resources
 
 This app is based on:
