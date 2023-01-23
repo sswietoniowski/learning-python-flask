@@ -1,7 +1,7 @@
-# 3rd attempt
+# 4th attempt
 #
-# This version was initialized with: https://startbootstrap.com/theme/freelancer
-# and then modified to use Jinja2 templates.
+# Now we are ready to make a better use of templates, by using the
+# base.html template to render the index.html and content.html
 
 from flask import render_template
 from app import create_app
