@@ -1,7 +1,7 @@
 from flask import (Flask, render_template, abort, jsonify, request,
     redirect, url_for)
 
-from model import db, save_db
+from projects.model import db, save_db
 
 app = Flask(__name__)
 

@@ -1,56 +1,16 @@
 # Learning Python - Flask
 
-Based on this course: _[Flask: Getting Started](https://app.pluralsight.com/library/courses/flask-getting-started/table-of-contents)_.
+This repository contains couple examples of Python Flask applications.
 
-To create virtual environment run:
+## Repository Contents
 
-_Linux_
+This repository contains the following sub-directories:
 
-```
-python -m venv venv
-./venv/Scripts/activate
-```
+- [projects](./projects) demo projects created using aftermentioned technologies & more :-).
 
-_Windows_
+## Learning Resources
 
-```
-python -m venv venv
-.\venv\Scripts\activate
-```
+Based on these (paid) courses & books:
 
-To save requirements run:
-```
-pip freeze > requirements.txt
-```
-
-To install requirements run:
-
-```
-pip install -r requirements.txt
-```
-
-To start Flask application do this:
-
-_Linux_
-
-```
-export FLASK_APP=flashcards.py
-export FLASK_ENV=development
-flask run
-```
-
-_Windows_ (Command Line)
-
-```
-set FLASK_APP=flashcards.py
-set FLASK_ENV=development
-flask run
-```
-
-_Windows_ (PowerShell)
-
-```
-$Env:FLASK_APP='flashcards.py'
-$Env:FLASK_ENV='development'
-flask run
-```
+- _[Flask: Getting Started](https://app.pluralsight.com/library/courses/flask-getting-started/table-of-contents)_ [:file_folder:](https://app.pluralsight.com/library/courses/flask-getting-started/exercise-files),
+- _[Writing a Web Application with Flask](https://learning.oreilly.com/videos/writing-a-web/10000MNHV2021147/)_.
