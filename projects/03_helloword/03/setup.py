@@ -1,6 +1,7 @@
 # 3rd attempt
 #
 # This version was initialized with: https://startbootstrap.com/theme/freelancer
+# and then modified to use Jinja2 templates.
 
 from flask import render_template
 from app import create_app

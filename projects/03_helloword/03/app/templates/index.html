@@ -80,7 +80,7 @@
         <!-- Masthead Avatar Image-->
         <img
           class="masthead-avatar mb-5"
-          src="assets/img/avataaars.svg"
+          src="{{url_for('static', filename='assets/img/avataaars.svg')}}"
           alt="..."
         />
         <!-- Masthead Heading-->
@@ -132,7 +132,7 @@
               </div>
               <img
                 class="img-fluid"
-                src="assets/img/portfolio/cabin.png"
+                src="{{url_for('static', filename='assets/img/portfolio/cabin.png')}}"
                 alt="..."
               />
             </div>
@@ -155,7 +155,7 @@
               </div>
               <img
                 class="img-fluid"
-                src="assets/img/portfolio/cake.png"
+                src="{{url_for('static', filename='assets/img/portfolio/cake.png')}}"
                 alt="..."
               />
             </div>
@@ -178,7 +178,7 @@
               </div>
               <img
                 class="img-fluid"
-                src="assets/img/portfolio/circus.png"
+                src="{{url_for('static', filename='assets/img/portfolio/circus.png')}}"
                 alt="..."
               />
             </div>
@@ -201,7 +201,7 @@
               </div>
               <img
                 class="img-fluid"
-                src="assets/img/portfolio/game.png"
+                src="{{url_for('static', filename='assets/img/portfolio/game.png')}}"
                 alt="..."
               />
             </div>
@@ -224,7 +224,7 @@
               </div>
               <img
                 class="img-fluid"
-                src="assets/img/portfolio/safe.png"
+                src="{{url_for('static', filename='assets/img/portfolio/safe.png')}}"
                 alt="..."
               />
             </div>
@@ -247,7 +247,7 @@
               </div>
               <img
                 class="img-fluid"
-                src="assets/img/portfolio/submarine.png"
+                src="{{url_for('static', filename='assets/img/portfolio/submarine.png')}}"
                 alt="..."
               />
             </div>
@@ -841,7 +841,7 @@
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
+    <script src="{{url_for('static', filename='js/scripts.js')}}"></script>
     <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
     <!-- * *                               SB Forms JS                               * *-->
     <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
