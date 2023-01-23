@@ -14,6 +14,7 @@ Based on these (free) courses:
 
 - _[Web Programming with Flask - Intro to Computer Science - Harvard's CS50 (2018)](https://youtu.be/zdgYw-3tzfI)_,
 - _[Learn Flask for Python - Full Tutorial](https://youtu.be/Z1RJmh_OqeA)_,
+- _[Getting set up with Flask in PyCharm](https://youtu.be/TbUqQGzR2cU)_,
 - _[Flask vs Django - Why NOT Choosing Flask Is Your Best Bet?](https://www.ulam.io/blog/flask-vs-django)_.
 
 Based on these (paid) courses & books:
