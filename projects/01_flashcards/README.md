@@ -72,7 +72,9 @@ flask run
 
 If you don't want to use `flask run` you can use `python flashcards.py` instead.
 
-One word about database (aka "flashcards_db.json"), provided that you don't want to commit changes to it. You can use `git update-index --assume-unchanged flashcards_db.json` to tell git to ignore changes to this file.
+One word about database (aka "flashcards_db.json"), provided that you don't want to commit changes to it. 
+
+You can use `git update-index --assume-unchanged flashcards_db.json` to tell git to ignore changes to this file.
 
 ## Learning Resources
 
