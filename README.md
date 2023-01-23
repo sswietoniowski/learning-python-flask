@@ -13,4 +13,5 @@ This repository contains the following sub-directories:
 Based on these (paid) courses & books:
 
 - _[Flask: Getting Started](https://app.pluralsight.com/library/courses/flask-getting-started/table-of-contents)_ [:file_folder:](https://app.pluralsight.com/library/courses/flask-getting-started/exercise-files),
+- _[Creating and Processing Web Forms with Flask](https://app.pluralsight.com/library/courses/creating-processing-web-forms-flask/table-of-contents)_ [:file_folder:](https://app.pluralsight.com/library/courses/creating-processing-web-forms-flask/exercise-files),
 - _[Writing a Web Application with Flask](https://learning.oreilly.com/videos/writing-a-web/10000MNHV2021147/)_.

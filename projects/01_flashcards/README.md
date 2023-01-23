@@ -1,6 +1,6 @@
-# Flashcards
+# Learning Flask - Flashcards
 
-Based on this course: _[Flask: Getting Started](https://app.pluralsight.com/library/courses/flask-getting-started/table-of-contents)_.
+Basic flashcards app created using Flask.
 
 Start page:
 
