@@ -46,6 +46,42 @@ To start Flask application do this:
 python app.py
 ```
 
+Alternatively, you can use `flask` command:
+
+```bash
+flask run
+```
+
+But first you need to set `FLASK_APP` environment variable:
+
+```bash
+export FLASK_APP=app.py
+```
+
+You can also set `FLASK_ENV` environment variable to `development` to enable debug mode:
+
+```bash
+export FLASK_ENV=development
+```
+
+It is also possible to set `FLASK_DEBUG` environment variable to `1` to enable debug mode:
+
+```bash
+export FLASK_DEBUG=1
+```
+
+Under Windows we would use `set` command instead of `export`:
+
+```cmd
+set FLASK_APP=app.py
+```
+
+or PowerShell:
+
+```powershell
+$env:FLASK_APP = "app.py"
+```
+
 Side note: if you want list all versions of Python installed on your machine run (on Windows):
 
 ```cmd
