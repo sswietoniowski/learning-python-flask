@@ -1,5 +1,4 @@
-from flask import (Flask, render_template, abort, jsonify, request,
-    redirect, url_for)
+from flask import Flask, render_template, abort, jsonify, request, redirect, url_for
 
 from projects.model import db, save_db
 
@@ -8,20 +7,16 @@ app = Flask(__name__)
 
 @app.route("/")
 def welcome():
-    return render_template(
-        "welcome.html",
-        cards=db
-    )
+    return render_template("welcome.html", cards=db)
 
 
 @app.route("/card/<int:index>")
 def card_view(index):
     try:
         card = db[index]
-        return render_template("card.html",
-                               card=card,
-                               index=index,
-                               max_index=len(db)-1)
+        return render_template(
+            "card.html", card=card, index=index, max_index=len(db) - 1
+        )
     except IndexError:
         abort(404)
 
@@ -30,11 +25,10 @@ def card_view(index):
 def add_card():
     if request.method == "POST":
         # process form's data
-        card = {"question": request.form["question"],
-                "answer": request.form["answer"]}
+        card = {"question": request.form["question"], "answer": request.form["answer"]}
         db.append(card)
         save_db()
-        return redirect(url_for("card_view", index=len(db)-1))
+        return redirect(url_for("card_view", index=len(db) - 1))
     else:
         return render_template("add_card.html")
 

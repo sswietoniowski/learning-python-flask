@@ -1,14 +1,11 @@
-{% extends "base.html" %}
-
-{% block title %}Remove Card{% endblock %}
-
-{% block content %}
-    <h1>Remove Flash Card</h1>
-    <p>Question: {{ card.question }}</p>
-    <p>Answer: {{ card.answer }}</p>
-    <h2>Are You Sure?</h2>
-    <form method="post">
-        <button type="submit">Yes</button>
-        <a href="{{ url_for('welcome') }}">No</a>
-    </form>
+{% extends "base.html" %} {% block title %}Remove Card{% endblock %} {% block
+content %}
+<h1>Remove Flash Card</h1>
+<p>Question: {{ card.question }}</p>
+<p>Answer: {{ card.answer }}</p>
+<h2>Are You Sure?</h2>
+<form method="post">
+  <button type="submit">Yes</button>
+  <a href="{{ url_for('welcome') }}">No</a>
+</form>
 {% endblock %}
