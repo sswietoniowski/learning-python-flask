@@ -10,6 +10,12 @@ This repository contains the following sub-directories:
 
 ## Learning Resources
 
+Based on these (free) courses:
+
+- _[Web Programming with Flask - Intro to Computer Science - Harvard's CS50 (2018)](https://youtu.be/zdgYw-3tzfI)_,
+- _[Learn Flask for Python - Full Tutorial](https://youtu.be/Z1RJmh_OqeA)_,
+- _[Flask vs Django - Why NOT Choosing Flask Is Your Best Bet?](https://www.ulam.io/blog/flask-vs-django)_.
+
 Based on these (paid) courses & books:
 
 - _[Flask: Getting Started](https://app.pluralsight.com/library/courses/flask-getting-started/table-of-contents)_ [:file_folder:](https://app.pluralsight.com/library/courses/flask-getting-started/exercise-files),
