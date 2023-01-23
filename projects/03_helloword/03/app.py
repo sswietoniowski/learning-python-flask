@@ -1,6 +1,6 @@
-# 2nd attempt at a flask app
+# 3rd attempt
 #
-# we've moved the app creation to a separate package
+# TODO: describe what we are doing here
 
 from app_package import create_app
 
