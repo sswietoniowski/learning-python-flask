@@ -40,10 +40,10 @@ If you want to upgrade all packages to the latest version run:
 pip install -r requirements.txt --upgrade
 ```
 
-To start Flask application you need to change current directory to the one with `app.py` file and run (provided that you activated virtual environment):
+To start Flask application you need to change current directory to the one with `setup.py` file and run (provided that you activated virtual environment):
 
 ```bash
-python app.py
+python setup.py
 ```
 
 Alternatively, you can use `flask` command:
@@ -73,13 +73,13 @@ export FLASK_DEBUG=1
 Under Windows we would use `set` command instead of `export`:
 
 ```cmd
-set FLASK_APP=app.py
+set FLASK_APP=setup.py
 ```
 
 or PowerShell:
 
 ```powershell
-$env:FLASK_APP = "app.py"
+$env:FLASK_APP = "setup.py"
 ```
 
 Side note: if you want to list all versions of Python installed on your machine run (on Windows):

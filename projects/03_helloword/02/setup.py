@@ -2,7 +2,7 @@
 #
 # we've moved the app creation to a separate package
 
-from app_package import create_app
+from app import create_app
 
 app = create_app()
 
