@@ -40,7 +40,7 @@ If you want to upgrade all packages to the latest version run:
 pip install -r requirements.txt --upgrade
 ```
 
-To start Flask application do this:
+To start Flask application you need to change current directory to the one with `app.py` file and run (provided that you activated virtual environment):
 
 ```bash
 python app.py
