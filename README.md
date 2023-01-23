@@ -12,6 +12,7 @@ This repository contains the following sub-directories:
 
 Based on these (free) courses:
 
+- [Web Programming with Flask - Intro to Computer Science - Harvard's CS50 (2018)](https://youtu.be/zdgYw-3tzfI),
 - _[Learn Flask for Python - Full Tutorial](https://youtu.be/Z1RJmh_OqeA)_,
 - _[Flask vs Django - Why NOT Choosing Flask Is Your Best Bet?](https://www.ulam.io/blog/flask-vs-django)_.
 
