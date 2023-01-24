@@ -29,7 +29,7 @@
             width="200px"
             alt="Image of puppy"
           />
-          {% for line in item.text %}
+          {% for line in item.text.split("\n") %}
           <p>{{ line }}</p>
           {% endfor %}
         </div>

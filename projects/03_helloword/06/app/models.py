@@ -1,5 +1,5 @@
 from contextlib import contextmanager
-from app.db import db
+from . import db
 
 
 @contextmanager

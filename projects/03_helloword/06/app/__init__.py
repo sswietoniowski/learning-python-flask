@@ -1,4 +1,10 @@
+import os
 from flask import Flask
+from flask_sqlalchemy import SQLAlchemy
+
+
+# create an empty db instance
+db = SQLAlchemy()
 
 
 def create_app():
@@ -6,14 +12,16 @@ def create_app():
     # create the flask app instance
     app = Flask(__name__)
 
+    basedir = os.path.abspath(os.path.dirname(__file__))
+
     # configure information for the db
-    app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///app.db"
+    app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///" + os.path.join(
+        basedir, "app.db"
+    )
     app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 
     with app.app_context():
         # initialize the db instance
-        from app.db import db
-
         db.init_app(app)
 
         # import the routes
