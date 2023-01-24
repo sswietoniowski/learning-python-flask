@@ -8,4 +8,4 @@ content_bp = Blueprint(
     template_folder="templates",
 )
 
-from app.content import views
+from app.content import content
