@@ -24,7 +24,7 @@
       >
         <div class="accordion-body">
           <img
-            src="{{url_for('static', filename='assets/img/' + item.image_filename)}}"
+            src="{{url_for('content_bp.static', filename='assets/img/' + item.image_filename)}}"
             class="img-fluid"
             width="200px"
             alt="Image of puppy"
@@ -65,10 +65,10 @@
 </div>
 {% endblock %} {% block styles %} {{ super() }}
 <link
-  href="{{url_for('static', filename='css/content.css')}}"
+  href="{{url_for('.static', filename='css/content.css')}}"
   rel="stylesheet"
   type="text/css"
 />
 {% endblock %} {% block scripts %} {{ super() }}
-<script src="{{url_for('static', filename='js/content.js')}}"></script>
+<script src="{{url_for('.static', filename='js/content.js')}}"></script>
 {% endblock %}
