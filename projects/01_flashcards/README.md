@@ -82,6 +82,8 @@ One word about database (aka "flashcards_db.json"), provided that you don't want
 
 You can use `git update-index --assume-unchanged flashcards_db.json` to tell git to ignore changes to this file.
 
+If you want to deploy this app to Vercel, read [this](https://dev.to/andrewbaisden/how-to-deploy-a-python-flask-app-to-vercel-2o5k) blog post.
+
 ## Learning Resources
 
 This app is based on:

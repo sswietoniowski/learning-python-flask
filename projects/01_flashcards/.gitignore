@@ -257,3 +257,4 @@ globomantics.db
 
 # Exclude virtualenv
 .venv/
+.vercel
